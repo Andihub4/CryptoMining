@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Hate from './Loves.js'
-import Phar from './phar.js'
-import Second from './Second.js'
+
+import Home from './home.js';
+
 
 
 
@@ -20,6 +20,8 @@ class App extends React.Component {
     this.state = { page: 'main' };
   }
 
+
+//functions
   goToMain = () => {
     this.setState({ page: 'main' });
   }
@@ -27,17 +29,21 @@ alertme() {
   window.alert("hello");
 }
  
-
+ 
+ 
+ 
+//displayer
   render() {
     if (this.state.page === 'main') {
       return (
         <div>
-          <Phar/>
-          <h2>Main Page</h2>
           
-          <button onClick={this.alertme}>alertme</button>
+          <Home/>
+          
+          
         </div>
       );
+      
       
       
     }
