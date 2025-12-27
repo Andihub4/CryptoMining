@@ -1,3 +1,16 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  
+}
+
+.scroll-box {
+  height: 79vh;
+  width: 100vw;
+  overflow-y: auto;
+  
+}
 .bad {
   width: 70px;
   height: 70px;

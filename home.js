@@ -8,6 +8,8 @@ class Home extends React.Component{
   return (
     //home
     <div>
+
+     
       
       
       <span style={{backgroundColor: 'rgb(6, 13, 20)'}}>
@@ -40,37 +42,69 @@ class Home extends React.Component{
       
 <hr style = {{color:"white"}}></hr>
     
-    
+          <div className="scroll-box">
     
       <div style={{ backgroundColor: 'rgb(6, 13, 20)',paddingTop: '20px', borderColor: 'rgba(57, 255, 20, 1)'}} class="card">
-  <div style = {{backgroundColor: 'rgb(6, 13, 20)', borderColor: 'black',color: 'white'}} class="card-header">
+  <div style = {{backgroundColor: 'rgb(6, 13, 20)', borderColor: 'rgba(57, 255, 20, 1)',color: 'white'}} class="card-header">
     
     <span style={{fontSize: '20px', marginLeft: '10px'}}>Arsenal</span> 
     <span style={{fontSize: '30px', color: "rgba(57, 255, 20, 1)", marginLeft: '50px'}}>Vs</span> 
     
-    <span style={{fontSize: '20px', marginLeft: '40px'}}>City</span>
+    <span style={{fontSize: '20px', marginLeft: '60px'}}>City</span>
     
     
   </div>
   <div class="card-body">
     
-    <h5 style={{backgroundColor: 'rgb(6, 13, 31)', borderColor: 'black', color: 'white'}} class="card-title">
+    <h5 style={{backgroundColor: 'rgb(6, 13, 31)', borderColor: 'rgba(57, 255, 20, 1)', color: 'white'}} class="card-title">
       
-      0×00000000000000000000
+     
       <span>
-        <button>
-          <img>
+        <button style={{borderRadius: '150px', width: '100px', height: '100px',borderColor: 'rgba(57, 255, 20, 1)'}}>
+          <img style={{width: '60px', height: '60px'}} src="arsenal.png">
           </img>
           </button>
           </span>
-      Vs
+          
+          <span style={{fontSize: '15px', color: "rgba(57, 255, 20, 1)", marginLeft: '20px'}}>4: 30 AM</span> 
       
       <span>
-        <button>
-          <img>
+        <button style={{borderRadius: '150px', width: '100px', height: '100px', marginLeft: '30px',borderColor: 'rgba(57, 255, 20, 1)'
+        }}>
+          <img style={{width: '60px', height: '60px'}}
+         src="city.png">
           </img>
           </button>
           </span>
+      <p></p>
+      
+      
+      <p class="d-inline-flex gap-1">
+
+  <button style={{width: '320px'}} class="btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+    Bet
+  </button>
+</p>
+<div style={{backgroundColor: 'rgb(6, 13, 20)'}} class="collapse" id="collapseExample">
+  <div style={{backgroundColor: 'rgb(6, 13, 20)'}} class="card card-body"> 
+  <span style={{color: 'white', backgroundColor: 'rgb(6, 13, 20)'}}>
+    
+    <ul style={{backgroundColor: 'rgb(6, 13, 20)', borderColor: 'rgba(57, 255, 20, 1)'}} class="list-group">
+  <li style={{backgroundColor: 'rgb(6, 13, 20)', color: 'white', borderColor: 'rgba(57, 255, 20, 1)'}} class="list-group-item">winner: arsenal</li>
+  <li style={{backgroundColor: 'rgb(6, 13, 20)', color: 'white', borderColor: 'rgba(57, 255, 20, 1)'}} class="list-group-item">goals: 2</li>
+  <li style={{backgroundColor: 'rgb(6, 13, 20)', color: 'white', borderColor: 'rgba(57, 255, 20, 1)'}} class="list-group-item">Fg:35-45min</li>
+  <li style={{backgroundColor: 'rgb(6, 13, 20)', color: 'white' , borderColor: 'rgba(57, 255, 20, 1)'}} class="list-group-item">SG: 55-60min</li>
+  <li style={{backgroundColor: 'rgb(6, 13, 20)', color: 'white', borderColor: 'rgba(57, 255, 20, 1)'}} class="list-group-item">SG:60-90min</li>
+</ul>
+<p></p>
+<button class="btn btn-success" style={{width: '280px'}}>Ok</button>
+    </span>
+  </div>
+</div>
+      
+<p></p> 
+ 
+      
       
       </h5>
     <p style={{backgroundColor : 'rgb(6, 13, 31)', borderColor: 'rgba(57, 255, 20, 1)'}} class="card-text"></p>
@@ -99,7 +133,73 @@ class Home extends React.Component{
        
        
       
-       
+          <div style={{ backgroundColor: 'rgb(6, 13, 20)',paddingTop: '20px', borderColor: 'rgba(57, 255, 20, 1)'}} class="card">
+  <div style = {{backgroundColor: 'rgb(6, 13, 20)', borderColor: 'rgba(57, 255, 20, 1)',color: 'white'}} class="card-header">
+    
+    <span style={{fontSize: '20px', marginLeft: '10px'}}>Arsenal</span> 
+    <span style={{fontSize: '30px', color: "rgba(57, 255, 20, 1)", marginLeft: '50px'}}>Vs</span> 
+    
+    <span style={{fontSize: '20px', marginLeft: '60px'}}>City</span>
+    
+    
+  </div>
+  <div class="card-body">
+    
+    <h5 style={{backgroundColor: 'rgb(6, 13, 31)', borderColor: 'rgba(57, 255, 20, 1)', color: 'white'}} class="card-title">
+      
+     
+      <span>
+        <button style={{borderRadius: '150px', width: '100px', height: '100px',borderColor: 'rgba(57, 255, 20, 1)'}}>
+          <img style={{width: '60px', height: '60px'}} src="arsenal.png">
+          </img>
+          </button>
+          </span>
+          
+          <span style={{fontSize: '15px', color: "rgba(57, 255, 20, 1)", marginLeft: '20px'}}>4: 30 AM</span> 
+      
+      <span>
+        <button style={{borderRadius: '150px', width: '100px', height: '100px', marginLeft: '30px',borderColor: 'rgba(57, 255, 20, 1)'
+        }}>
+          <img style={{width: '60px', height: '60px'}}
+         src="city.png">
+          </img>
+          </button>
+          </span>
+      <p></p>
+      
+      
+      <p class="d-inline-flex gap-1">
+
+  <button style={{width: '320px'}} class="btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+    Bet
+  </button>
+</p>
+<div style={{backgroundColor: 'rgb(6, 13, 20)'}} class="collapse" id="collapseExample">
+  <div style={{backgroundColor: 'rgb(6, 13, 20)'}} class="card card-body"> 
+  <span style={{color: 'white', backgroundColor: 'rgb(6, 13, 20)'}}>
+    
+    <ul style={{backgroundColor: 'rgb(6, 13, 20)', borderColor: 'rgba(57, 255, 20, 1)'}} class="list-group">
+  <li style={{backgroundColor: 'rgb(6, 13, 20)', color: 'white', borderColor: 'rgba(57, 255, 20, 1)'}} class="list-group-item">winner: arsenal</li>
+  <li style={{backgroundColor: 'rgb(6, 13, 20)', color: 'white', borderColor: 'rgba(57, 255, 20, 1)'}} class="list-group-item">goals: 2</li>
+  <li style={{backgroundColor: 'rgb(6, 13, 20)', color: 'white', borderColor: 'rgba(57, 255, 20, 1)'}} class="list-group-item">Fg:35-45min</li>
+  <li style={{backgroundColor: 'rgb(6, 13, 20)', color: 'white' , borderColor: 'rgba(57, 255, 20, 1)'}} class="list-group-item">SG: 55-60min</li>
+  <li style={{backgroundColor: 'rgb(6, 13, 20)', color: 'white', borderColor: 'rgba(57, 255, 20, 1)'}} class="list-group-item">SG:60-90min</li>
+</ul>
+<p></p>
+<button class="btn btn-success" style={{width: '280px'}}>Ok</button>
+    </span>
+  </div>
+</div>
+      
+<p></p> 
+ 
+      
+      
+      </h5>
+    <p style={{backgroundColor : 'rgb(6, 13, 31)', borderColor: 'rgba(57, 255, 20, 1)'}} class="card-text"></p>
+    
+  </div>
+</div>   
        
       
        
@@ -109,7 +209,7 @@ class Home extends React.Component{
     
 
        
-  
+ </div> 
 <hr style={{color: 'white',}}></hr>
   
 <svg style={{marginLeft: '15px', color: 'rgba(57, 255, 20, 1)'}} xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">

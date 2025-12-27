@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 
 import Home from './home.js';
-
+import Bet from '././bet.js';
 
 
 
@@ -38,7 +38,7 @@ alertme() {
       return (
         <div>
           
-          <Home/>
+          <Bet/>
           
           
         </div>
